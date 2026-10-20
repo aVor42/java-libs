@@ -1,0 +1,109 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.github.avor42",
+    "module": "saga-orchestrator",
+    "version": "2.0.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.14"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "saga-orchestrator-2.0.0.jar",
+          "url": "saga-orchestrator-2.0.0.jar",
+          "size": 17324,
+          "sha512": "8a4c54ddc821aabaca88e5bbeb5fcb6edc257f09a4b90948621d806064101f75dbdc77d3ca24f746adf827a4aee3216203a52fe55cb514545e9d3951064af193",
+          "sha256": "363fd2921de83e0590a3087f1f314468498060849a789832948835257e325b3b",
+          "sha1": "a4cc3bb45e9347b57f474944602792a7c5f4fbf6",
+          "md5": "6f1e6b86b631c5779563456ae9ad3626"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.slf4j",
+          "module": "slf4j-api",
+          "version": {
+            "requires": "2.0.17"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "saga-orchestrator-2.0.0.jar",
+          "url": "saga-orchestrator-2.0.0.jar",
+          "size": 17324,
+          "sha512": "8a4c54ddc821aabaca88e5bbeb5fcb6edc257f09a4b90948621d806064101f75dbdc77d3ca24f746adf827a4aee3216203a52fe55cb514545e9d3951064af193",
+          "sha256": "363fd2921de83e0590a3087f1f314468498060849a789832948835257e325b3b",
+          "sha1": "a4cc3bb45e9347b57f474944602792a7c5f4fbf6",
+          "md5": "6f1e6b86b631c5779563456ae9ad3626"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "saga-orchestrator-2.0.0-sources.jar",
+          "url": "saga-orchestrator-2.0.0-sources.jar",
+          "size": 9150,
+          "sha512": "76dde3b7c5422a7f6b57bfafa2b40ac4068144448b86a5de8f95b6585134e936ce8ff7ef7ce828cfc472539240db2fd6561f431f2886a671974a8ffd7b90251d",
+          "sha256": "80c0aae6f065526f9847cc73bdc9afc92bb4c3e70cc83f2df259c042339b8096",
+          "sha1": "e60869ceca5c7fdd5aa4e2f8ee6494e328194cba",
+          "md5": "39d0d9d541c199675d2659b495458843"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "saga-orchestrator-2.0.0-javadoc.jar",
+          "url": "saga-orchestrator-2.0.0-javadoc.jar",
+          "size": 134202,
+          "sha512": "8bba554d0ab3cf8150b94d9f6c7e86d9c647bc8da01b7ee5eb4d5b5121d80a304c4d4ec8f02e00a730740eed87d14eae7f411aeb01490047cfa69a9f7322bead",
+          "sha256": "a9d976a0cfd16d52ade0dde005e23055121b03b893f48d910337bdafba172ecc",
+          "sha1": "186ade6dc161fc58c0280e6029bfb58ee197ae24",
+          "md5": "a58c171eff44fd3ef7a3beb38e7ecd45"
+        }
+      ]
+    }
+  ]
+}
